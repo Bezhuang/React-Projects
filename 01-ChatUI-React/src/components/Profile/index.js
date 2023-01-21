@@ -19,7 +19,7 @@ import Icon from "components/Icon";
 import {
   faWeibo,
   faGithub,
-  faLinkedin,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import Seperator from "components/Seperator";
 import Text from "components/Text";
@@ -51,7 +51,7 @@ function Profile({
           grid-area: 1 / 1 / 3 / 2;
         `}
         src={face}
-        size="160px"
+        size="180px"
         status={status}
         statusIconSize="25px"
       />
@@ -80,7 +80,7 @@ function Profile({
           margin-bottom: 12px;
         `}
       >
-        慕容天宇
+        Bezhuang
       </Paragraph>
       <Paragraph
         size="medium"
@@ -89,24 +89,24 @@ function Profile({
           margin-bottom: 18px;
         `}
       >
-        北京市 朝阳区
+        上海 虹口
       </Paragraph>
       <Paragraph
         css={`
           margin-bottom: 26px;
         `}
       >
-        帮助客户构建网站，并协助在社交网站上进行推广{" "}
-        <Emoji label="fire">🔥</Emoji>
+        React 课程实战，<Emoji label="computer">💻</Emoji>，以即时通信聊天为原型，构建的一整套的 UI 组件库。{" "}
+
       </Paragraph>
       <SocialLinks>
         <Icon.Social
           icon={faWeibo}
           bgColor="#F06767"
-          href="http://www.weibo.com"
+          href="https://weibo.com/u/7798754924"
         />
-        <Icon.Social icon={faGithub} bgColor="black" />
-        <Icon.Social icon={faLinkedin} bgColor="#2483C0" />
+        <Icon.Social icon={faGithub} bgColor="black" href="https://Github.com/Bezhuang" />
+        <Icon.Social icon={faYoutube} bgColor="blue" href="https://space.bilibili.com/30593492" />
       </SocialLinks>
       <Seperator
         css={`
@@ -114,9 +114,9 @@ function Profile({
         `}
       />
       <ContactSection>
-        <Description label="联系电话">+86 18688888888</Description>
-        <Description label="电子邮件">admin@fh.com</Description>
-        <Description label="个人网站">https://zxuqian.cn</Description>
+        <Description label="手机/微信">13818993049</Description>
+        <Description label="电子邮件">bezhuang@outlook.com</Description>
+        <Description label="博客">https://blog.zhuangzhihao.top</Description>
       </ContactSection>
       <Seperator
         css={`
@@ -125,7 +125,7 @@ function Profile({
       />
       <AlbumSection>
         <AlbumTitle>
-          <Text type="secondary">相册（31）</Text>
+          <Text type="secondary">相册（10）</Text>
           <a>查看全部</a>
         </AlbumTitle>
         <Album>

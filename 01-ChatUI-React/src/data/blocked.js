@@ -12,41 +12,41 @@ export default [
   {
     id: 1,
     avatar: face1,
-    name: "李铭浩",
+    name: "泰戈尔",
   },
   {
     id: 2,
     avatar: face2,
-    name: "孙文佳",
+    name: "纪伯伦",
   },
   {
     id: 3,
     avatar: face3,
-    name: "慕容天宇",
+    name: "纳兰性德",
   },
   {
     id: 4,
     avatar: face4,
-    name: "郭文菲",
+    name: "尼采",
   },
   {
     id: 5,
     avatar: face5,
-    name: "张峰",
+    name: "Bezhuang",
   },
   {
     id: 6,
     avatar: face6,
-    name: "李凝",
+    name: "凯撒",
   },
   {
     id: 7,
     avatar: face7,
-    name: "王雨斐",
+    name: "毛姆",
   },
   {
     id: 8,
     avatar: face8,
-    name: "赵子枫",
+    name: "赵艳雪",
   },
 ];

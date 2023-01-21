@@ -7,8 +7,8 @@ import StyledVideoCall, {
   Self,
   VideoCallAlert,
 } from "./style";
-import videoCaller from "assets/images/video-caller.jpg";
-import face from "assets/images/face-male-1.jpg";
+import videoCaller from "assets/images/video-caller.gif";
+import face from "assets/images/face-male-3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCompressAlt,
@@ -40,7 +40,7 @@ function VideoCall({ children, onHangOffClicked, ...rest }) {
             grid-area: info;
           `}
         >
-          正在跟 李铭浩 进行视频通话
+          您正在和 Bezhuang 视频通话
         </Paragraph>
         <Paragraph
           type="secondary"

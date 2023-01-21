@@ -27,7 +27,7 @@ function TitleBar({
     <StyledTitleBar style={{ ...style, ...animeProps }} {...rest}>
       <Avatar onClick={onAvatarClick} status="offline" src={face} />
       <Title>
-        <Paragraph size="large">慕容天宇</Paragraph>
+        <Paragraph size="large">Bezhuang</Paragraph>
         <Paragraph type="secondary">
           <Text>离线</Text>
           <Text>· 最后阅读：3小时前</Text>

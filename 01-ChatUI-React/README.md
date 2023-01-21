@@ -1,6 +1,16 @@
-# ChatUI-React 即时通信 UI 实战
+## ChatUI-React 即时通信 UI 实战
 
 [React 课程](https://study.163.com/course/courseMain.htm?courseId=1210022809&share=2&shareId=480000002172128)实战，以即时通信聊天为原型，构建的一整套的 UI 组件库。
+
+-   React 属性、状态和事件处理
+
+-   styled-components 管理样式
+
+-   React Router 配置路由
+
+-   React Spring 添加动画
+
+-   组件设计思想
 
 ### 笔记列表：
 
